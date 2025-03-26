@@ -63,7 +63,7 @@ const personalData = {
             {
               name: 'VS code',
               icon: 'visual-studio.png', //Add your skill-icon in "icons" folder
-              mastery: 'Intermediate',
+              mastery: 'Advanced',
               type: 'tools'
             },
             {
@@ -75,12 +75,6 @@ const personalData = {
             {
               name: 'Git',
               icon: 'Git.png', //Add your skill-icon in "icons" folder
-              mastery: 'Intermediate',
-              type: 'tools'
-            },
-            {
-              name: 'Xampp',
-              icon: 'Xampp.png', //Add your skill-icon in "icons" folder
               mastery: 'Intermediate',
               type: 'tools'
             },
