@@ -6,7 +6,7 @@ const personalData = {
   email: 'mail@lamnguyenhoangminh.info.vn',
   contactNumber: '0707177540',
   address: 'Tân Bình, Hồ Chí Minh',
-  fbLink: 'https://www.facebook.com/hoangminh97/',
+  fbLink: 'https://www.facebook.com/hoangminh97/' ,
   insLink: 'https://www.instagram.com/hoangminhln_/',
   linkedinLink: 'https://www.linkedin.com/in/minhlam97/',
   youtubeLink: 'https://www.youtube.com/@HoangMinh-LamNguyen',

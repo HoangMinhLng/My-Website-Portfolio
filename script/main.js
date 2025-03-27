@@ -23,6 +23,6 @@ showMoreDetailBtn.addEventListener('click', ()=>{
 });
 
 
-const copyright = `&copy;${new Date().getFullYear()} Hoàng Minh. All rights reserved`;
+const copyright = `&copy;${new Date().getFullYear()} Portfolio Website `;
 document.querySelector('footer .copyright-txt').innerHTML = copyright;
 
