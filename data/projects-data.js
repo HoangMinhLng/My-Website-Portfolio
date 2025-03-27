@@ -4,7 +4,7 @@ const projects = [
     image: 'my portfolio.png', //Add your project-image in "images" folder
     description: 'This is an online CV where I showcase my work, share my knowledge, and introduce myself.',
     type: 'website',
-    link: 'https://meowish-0.github.io/Meowish-Website1/main.html'
+    link: 'https://github.com/HoangMinhLng/MyWebsite'
   },
   {
     title: 'My Website',
