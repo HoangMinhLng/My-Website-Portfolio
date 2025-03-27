@@ -1,83 +1,59 @@
-<!-- How To Edit And Host The Portfolio Website -->
+<!-- Cách Chỉnh Sửa và Triển Khai Website Portfolio -->
+📄 README.md – Tài liệu hướng dẫn về dự án
 
+**Cấu Trúc Thư Mục**
 
-**Directory Structure**
 📂 data
- ├── personal-data.js      # Personal information data
- ├── projects-data.js      # Data for projects
- ├── services-data.js      # Data for services
+├── personal-data.js – Dữ liệu thông tin cá nhân
+├── projects-data.js – Dữ liệu về các dự án
+├── services-data.js – Dữ liệu về các dịch vụ
 
 📂 images-and-icons
- ├── icons                 # Icon assets
- ├── images                # General images
+├── icons – Tệp biểu tượng
+├── images – Hình ảnh chung
 
 📂 script
- ├── about.js              # About section script
- ├── main.js               # Main script file
- ├── projects.js           # Projects section script
- ├── render-contents.js    # Dynamically renders content
- ├── top-nav.js            # Navigation bar script
+├── about.js – Script cho phần giới thiệu
+├── main.js – Tệp script chính
+├── projects.js – Script cho phần dự án
+├── render-contents.js – Render nội dung động
+├── top-nav.js – Script cho thanh điều hướng
 
 📂 style
- ├── sections-style        # Section-specific styles
- │   ├── about-section.css
- │   ├── contact-section.css
- │   ├── projects-section.css
- │   ├── services-section.css
- ├── animation.css         # Animation styles
- ├── footer.css            # Footer styles
- ├── global.css            # Global styles
- ├── laning-content.css    # Landing page styles
- ├── profile.css           # Profile section styles
- ├── top-nav.css           # Navigation bar styles
+├── sections-style/ – CSS cho từng phần của website
+│ ├── about-section.css – CSS cho phần giới thiệu
+│ ├── contact-section.css – CSS cho phần liên hệ
+│ ├── projects-section.css – CSS cho phần dự án
+│ ├── services-section.css – CSS cho phần dịch vụ
+├── animation.css – CSS cho hiệu ứng
+├── footer.css – CSS cho phần chân trang
+├── global.css – CSS chung
+├── laning-content.css – CSS cho trang chủ
+├── profile.css – CSS cho phần hồ sơ cá nhân
+├── top-nav.css – CSS cho thanh điều hướng
 
-📄 LICENCE.txt             # License agreement and terms  
-📄 page.html               # Main HTML file
-📄 README.md               # Project documentation
+**Cách Thay Đổi và Cập Nhật Nội Dung**
 
+🔹 Chỉnh sửa dữ liệu:
+Vào thư mục data và chỉnh sửa các tệp JavaScript tương ứng:
 
+personal-data.js → Chỉnh sửa thông tin cá nhân.
 
-**HOW TO CHANGE AND UPDATE CONTENT**
+projects-data.js → Cập nhật chi tiết về dự án.
 
-🔹 Modify Data:
+services-data.js → Thay đổi thông tin dịch vụ.
 
-Navigate to the data folder and update the respective JavaScript files:
+📌 Cập nhật hình ảnh và biểu tượng:
+Nếu muốn thay đổi hình ảnh hoặc biểu tượng, hãy đặt chúng vào thư mục thích hợp. Trong mã có chú thích hướng dẫn vị trí cho từng loại hình ảnh hoặc biểu tượng.
 
-personal-data.js → Modify personal information.
+💡 Mọi thay đổi sẽ tự động được cập nhật vì nội dung được render động thông qua render-contents.js.
 
-projects-data.js → Update project details.
+🎨 Cập nhật giao diện:
 
-services-data.js → Change service offerings.
+Mở thư mục style.
 
-📌 Updating Images and Icons:
-If you want to change your images or icons, make sure to place them in the appropriate folder. There are comments in the code specifying where each type of image or icon should go.
+Chỉnh sửa các tệp CSS để điều chỉnh thiết kế và giao diện của website.
 
-All updates will be automatically reflected since they are dynamically rendered in render-contents.js.
-
-🎨 Update Styles:
-
-Open the style folder.
-
-Modify the CSS files to adjust the website’s design and appearance.
-
-⚠️ Notes:
-✅ Do not remove render-contents.js, as it dynamically loads data from the data folder.
-✅ Ensure that the JavaScript object structures in the data folder remain consistent to prevent errors.
-
-
-**HOW TO RUN THE PROJECT IN LIVE SERVER**
-
-  1: Using VS Code Live Server Extension (Recommended):
-  2: Open VS Code and go to the Extensions marketplace.
-  3: Search for Live Server and install the extension.
-  4: Open the project folder in VS Code.
-  5: Locate page.html in the file explorer.
-  6: Right-click on page.html and select "Open with Live Server".
-
-  Your default web browser will automatically open and display the website.
-
-
-**HOW TO HOST THE WEBSITE**
-📌 Watch the tutorial here👉 [Easy Way to Host Your Website](https://youtu.be/3e_FVE4piEM?si=Zs3fJf6QOZm2LnBW)
-
-
+⚠️ Lưu ý quan trọng:
+✅ Không xóa render-contents.js, vì nó tải dữ liệu động từ thư mục data.
+✅ Giữ nguyên cấu trúc của các đối tượng JavaScript trong thư mục data để tránh lỗi.
