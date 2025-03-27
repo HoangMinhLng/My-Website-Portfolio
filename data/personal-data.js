@@ -69,13 +69,13 @@ const personalData = {
             {
               name: 'GitHub',
               icon: 'github (2).png', //Add your skill-icon in "icons" folder
-              mastery: 'Intermediate',
+              mastery: 'Advanced',
               type: 'tools'
             },
             {
               name: 'Git',
               icon: 'Git.png', //Add your skill-icon in "icons" folder
-              mastery: 'Intermediate',
+              mastery: 'Advanced',
               type: 'tools'
             },
             {
