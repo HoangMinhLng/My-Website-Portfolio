@@ -2,7 +2,7 @@ const personalData = {
   websiteLogo: 'HM_websitelogo.png', //Add your website-logo in "icons" folder
   name: 'Hoàng Minh',
   photo: 'Kai_profile.webp', //Add your photo in "images" folder
-  profession: 'Officer',
+  profession: 'Support Officer',
   email: 'mail@lamnguyenhoangminh.info.vn',
   contactNumber: '0707177540',
   address: 'Tân Bình, Hồ Chí Minh',
