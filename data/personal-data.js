@@ -11,7 +11,7 @@ const personalData = {
   linkedinLink: 'https://www.linkedin.com/in/minhlam97/',
   youtubeLink: 'https://www.youtube.com/@HoangMinh-LamNguyen',
   tiktokLink: 'https://www.tiktok.com/',
-  aboutMe: ' I am passionate about technology and strongly desire to learn, so I am driven to explore emerging technological trends.  I always seek ways to apply the theoretical knowledge I have gained to improve work processes and personal life. Personally, technology is not simply a tool, it is also a journey of continuous learning. If you are also a tech lover, feel free to connect. I am always eager to learn from others.',
+  aboutMe: ' Mình đam mê công nghệ và có khao khát học hỏi mạnh mẽ, vì vậy mình luôn bị thôi thúc khám phá các xu hướng công nghệ mới nổi. Mình luôn tìm cách áp dụng những kiến thức lý thuyết đã học để cải thiện quy trình làm việc và cuộc sống cá nhân. Đối với mình, công nghệ không chỉ đơn thuần là một công cụ, mà còn là một hành trình học hỏi không ngừng. Nếu bạn cũng là một người yêu công nghệ, đừng ngần ngại kết nối. Mình luôn sẵn sàng học hỏi từ mọi người!',
   skills: [ {
               name: 'HTML',
               icon: 'html.png', //Add your skill-icon in "icons" folder
